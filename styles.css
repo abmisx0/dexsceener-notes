@@ -1,0 +1,128 @@
+.pool-note-button {
+    flex: 0 0 auto;
+    margin-left: 8px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 4px 8px;
+    border-radius: 4px;
+    transition: background-color 0.2s;
+    z-index: 3;
+    position: static;
+}
+
+.pool-note-button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Overlay */
+.note-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 2147483646;
+}
+
+.pool-note-input {
+    position: fixed;
+    background: #1a1a1a;
+    border: 1px solid #333;
+    border-radius: 4px;
+    padding: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    z-index: 2147483647;
+    min-width: 300px;
+    max-width: 400px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    pointer-events: auto;
+}
+
+.pool-note-input textarea {
+    width: 100%;
+    min-height: 100px;
+    margin-bottom: 12px;
+    padding: 8px;
+    border: 1px solid #333;
+    border-radius: 4px;
+    resize: vertical;
+    font-size: 14px;
+    line-height: 1.4;
+    background: #000000;
+    color: white;
+    position: relative;
+    z-index: 2147483647;
+}
+
+.pool-note-input textarea::placeholder {
+    color: #666;
+}
+
+.pool-note-input button {
+    background-color: #333333;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    font-size: 14px;
+    position: relative;
+    z-index: 2147483647;
+    transition: background-color 0.2s;
+}
+
+.pool-note-input button:hover {
+    background-color: #444444;
+}
+
+.note-text {
+    flex: 0 0 auto;
+    margin-left: 8px;
+    color: white;
+    font-size: 14px;
+    max-width: 150px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding: 2px 6px;
+    border-radius: 4px;
+    background: rgba(255, 255, 255, 0.1);
+    transition: background-color 0.2s;
+    z-index: 2;
+    position: static;
+    cursor: pointer;
+}
+
+.note-text:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.ds-dex-table-row-base-token-name {
+    position: relative;
+    padding-right: 0 !important;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: flex-start;
+}
+
+.ds-dex-table-row-base-token-name-text {
+    flex: 1 1 auto;
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-align: left;
+}
+
+.ds-table-data-cell.ds-dex-table-row-col-token {
+    position: relative;
+    padding-right: 0 !important;
+} 
