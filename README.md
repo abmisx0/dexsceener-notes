@@ -1,12 +1,12 @@
-# DexScreener Notes
+# DEX Screener Notes
 
-A Chrome extension that allows you to add and save notes to pools on DexScreener.
+A Chrome extension that allows you to add and save notes to pools on DEX Screener.
 
-![Preview of DexScreener Notes extension showing the note interface](image.png)
+![Preview of DEX Screener Notes extension showing the note interface](image.png)
 
 ## Features
 
-- Add notes to any pool on DexScreener
+- Add notes to any pool on DEX Screener
 - Notes are saved locally and persist between sessions
 - Easy-to-use interface with a simple 📝 button
 
@@ -19,11 +19,11 @@ A Chrome extension that allows you to add and save notes to pools on DexScreener
 
 ## Usage
 
-1. Visit any DexScreener page
+1. Visit any DEX Screener page
 2. Look for the 📝 button next to pools
 3. Click the button to add a note
 4. Enter your note and click "Save" or [CMD+ENTER]
-5. Your note will appear persist on DexScreener and click again to edit
+5. Your note will appear persist on DEX Screener and click again to edit
 
 ## Files
 
